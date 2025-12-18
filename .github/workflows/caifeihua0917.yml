@@ -1,29 +1,29 @@
 name: caifeihua0917
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 4/6 * * *'
+    - cron: '22 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: caifeihua0917
         env:
-          hwfw67168: ${{ secrets.hwfw67168 }}
+          ytvb9: ${{ secrets.ytvb9 }}
         run: |
-          echo $hwfw67168 | jq -r .qc2059 | /bin/bash
-          echo $p652 | jq -r .k4 | /bin/bash
-          echo $zp0 | jq -r .mk081 | /bin/bash
-          echo $dku10 | jq -r .oxfn175 | /bin/bash
-          echo $zox08956 | jq -r .am7 | /bin/bash
-          echo $voa19351 | jq -r .wfv85 | /bin/bash
-          echo $kfgv895 | jq -r .k7649 | /bin/bash
-          echo $zcdj098 | jq -r .zugo3 | /bin/bash
-          echo $wsck622 | jq -r .m1 | /bin/bash
-          echo $pif22 | jq -r .lr9 | /bin/bash
-          echo $xlmbk01449 | jq -r .mbt74 | /bin/bash
-          echo $xz351 | jq -r .luksr114 | /bin/bash
+          echo $ytvb9 | jq -r .emdd6 | /bin/bash
+          echo $ih0 | jq -r .kdk2 | /bin/bash
+          echo $r95 | jq -r .mvzr3 | /bin/bash
+          echo $jcdne221 | jq -r .zvv3 | /bin/bash
+          echo $pfv77260 | jq -r .jwqsd5 | /bin/bash
+          echo $qzfp961 | jq -r .zmbum3 | /bin/bash
+          echo $bpahx66 | jq -r .lpa868 | /bin/bash
+          echo $tr77509 | jq -r .oo24 | /bin/bash
+          echo $efzh94 | jq -r .haipo8512 | /bin/bash
+          echo $bj8771 | jq -r .admn25 | /bin/bash
+          echo $qw682 | jq -r .igrl32 | /bin/bash
+          echo $shawn856 | jq -r .f234 | /bin/bash
 
